@@ -17,22 +17,6 @@ class Logger {
     }
 }
 
-/**
- * class to create only one instance of the Logger
- */
-class Singleton {
-    constructor() {
-        if (!Singleton.instance) {
-            Singleton.instance = new Logger();
-        }
-    }
-
-    /**
-     * @returns Logger
-     */
-    getInstance() {
-        return Singleton.instance;
-    }
-}
-
-module.exports = Singleton;
+// Node.js will instantiate an object and cache it, the first time
+// every other time the module is consumed, it will refer to the cached object
+module.exports = new Logger();
