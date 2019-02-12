@@ -1,0 +1,25 @@
+{
+  "name": "node-design-patterns",
+  "version": "1.0.0",
+  "description": "design patterns in Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nfgoto/node-design-patterns.git"
+  },
+  "keywords": [
+    "node",
+    "design",
+    "patterns",
+    "es6"
+  ],
+  "author": "Florian GOTO",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nfgoto/node-design-patterns/issues"
+  },
+  "homepage": "https://github.com/nfgoto/node-design-patterns#readme"
+}
