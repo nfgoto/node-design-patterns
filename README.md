@@ -7,10 +7,14 @@
 
 # Prototype Pattern
 
-<!-- italics -->
 ***Intent:** Specify the kinds of objects to create using prototypical instance, and create new objects by copying this prototype*
 
 # Factory Pattern
 
-<!-- italics -->
 ***Intent:** Define an interface for creating an object but let subclasses decide which class to instantiate. Factory Method lets a class defer instantiation to subclasses*
+
+# Builder Pattern
+
+***Intent:** Separate the construction of a complex object from its representation. By doing so the same construction process can create different representations*
+
+Solution to the ***telescoping constructor*** (too many arguments) antipattern
