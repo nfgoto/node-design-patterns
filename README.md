@@ -9,3 +9,8 @@
 
 <!-- italics -->
 ***Intent:** Specify the kinds of objects to create using prototypical instance, and create new objects by copying this prototype*
+
+# Factory Pattern
+
+<!-- italics -->
+***Intent:** Define an interface for creating an object but let subclasses decide which class to instantiate. Factory Method lets a class defer instantiation to subclasses*
